@@ -1,0 +1,42 @@
+.whole {
+  height: 100vh;
+}
+
+.mt-64 {
+  margin-top: 64px;
+}
+
+.margin-row {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.sticky-bottom {
+  position: sticky;
+  bottom: 0;
+  z-index: 1020;
+}
+
+.font-card {
+  font-size: 14px;
+}
+
+.inputer {
+  line-height: 1;
+}
+
+.card-header-padding {
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.card-body-padding {
+  padding-left: 8px;
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+
+.card-rectangle {
+  border-radius: 0;
+}
