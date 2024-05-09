@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "jest/globals": true,
+    "node": true
+  },
+  "extends": ["standard", "prettier", "eslint:all"],
+  "overrides": [
+    {
+      "extends": ["plugin:jest/recommended"],
+      "files": ["__test__/**"],
+      "plugins": ["jest"]
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "lines-around-comment": "off",
+    "multiline-comment-style": "off",
+    "spaced-comment": "off",
+    "no-var": "error",
+    "quotes": ["error", "double", { "avoidEscape": true }],
+    "semi": ["error", "always"],
+    "no-console": "off",
+    "function-call-argument-newline": "off",
+    "no-magic-numbers": "off",
+    "max-len": "off",
+    "id-length": "off",
+    "no-plusplus": "off",
+    "function-paren-newline": "off",
+    "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 3 }],
+    "comma-dangle": ["error", "only-multiline"],
+    "prefer-regex-literals": "off",
+    "max-statements": ["error", { "max": 30 }],
+    "sort-keys": "off",
+    "array-element-newline": ["error", { "multiline": true }],
+    "max-params": ["error", 4],
+    "capitalized-comments": "off",
+    "array-bracket-newline": "off"
+  }
+}

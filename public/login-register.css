@@ -1,0 +1,23 @@
+body {
+  padding-top: 30px;
+}
+
+.width-edit {
+  max-width: 300px;
+  margin: 5px;
+}
+
+.bottom-format {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.top-format {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.font-small {
+  font-size: 13px;
+}
